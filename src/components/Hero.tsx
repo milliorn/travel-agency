@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="md:left[10%] max-w-[1100px] m-auto absolute p-4">
           <p>Exclusive</p>
           <h1 className="font-bold text-5xl md:text-7xl drop-shadow-2xl">
-            Private &amp; Getaways
+            Private Resorts &amp; Getaways
           </h1>
           <p className="max-w-[600px] drop-shadow-2xl py-2 text-xl">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -22,7 +22,7 @@ const Hero = () => {
             delectus ducimus dolore explicabo, odio quia perferendis doloribus
             facere, tempora, ab quod maiores!
           </p>
-          <button>RSVP Now</button>
+          <button className="bg-white text-black">RSVP Now</button>
         </div>
       </div>
     </div>
