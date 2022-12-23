@@ -1,6 +1,6 @@
 function Rooms(): JSX.Element {
   return (
-    <div>
+    <div className="">
       <div>
         <h3>Fine Interior Rooms</h3>
         <p>
@@ -11,7 +11,18 @@ function Rooms(): JSX.Element {
         </p>
       </div>
       <div>
-        
+        <img
+          src="https://source.unsplash.com/random/2560x1440/?luxury+bathroom"
+          alt="/"
+        />
+        <img
+          src="https://source.unsplash.com/random/2560x1440/?luxury+room"
+          alt="/"
+        />
+        <img
+          src="https://source.unsplash.com/random/2560x1440/?luxury+hotel"
+          alt="/"
+        />
       </div>
     </div>
   );
