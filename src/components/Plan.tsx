@@ -2,24 +2,29 @@ function Plan(): JSX.Element {
   return (
     <div className="max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4">
       {/* left side */}
-      <div>
+      <div className="grid grid-cols-2 grid-rows-6 h-[80vh]">
         <img
+          className="object-cover w-full h-full p-2 row-span-3"
           src="https://source.unsplash.com/random/2560x1440/?Hawaii"
           alt="/"
         />
         <img
+          className="object-cover w-full h-full p-2 row-span-2"
           src="https://source.unsplash.com/random/2560x1440/?Paradise"
           alt="/"
         />
         <img
+          className="object-cover w-full h-full p-2 row-span-2"
           src="https://source.unsplash.com/random/2560x1440/?Maldives"
           alt="/"
         />
         <img
+          className="object-cover w-full h-full p-2 row-span-3"
           src="https://source.unsplash.com/random/2560x1440/?island"
           alt="/"
         />
         <img
+          className="object-cover w-full h-full p-2 row-span-2"
           src="https://source.unsplash.com/random/2560x1440/?resort"
           alt="/"
         />
