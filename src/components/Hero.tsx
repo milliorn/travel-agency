@@ -2,9 +2,10 @@ function Hero(): JSX.Element {
   return (
     <div className="w-full h-screen">
       <img
+        alt="beach"
         className="top-0 left-0 w-full h-screen object-cover bg-black"
         src="https://source.unsplash.com/random/2560x1440/?beach"
-        alt="beach"
+        loading="lazy"
       />
       {/* overlay */}
       <div className="bg-black/30 absolute top-0 left-0 w-full h-screen" />

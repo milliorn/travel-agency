@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Offers from "./components/Offers";
+import Plan from "./components/Plan";
 
 export default function App(): JSX.Element {
   return (
@@ -8,6 +9,7 @@ export default function App(): JSX.Element {
       <Navbar />
       <Hero />
       <Offers />
+      <Plan />
     </>
   );
 }
