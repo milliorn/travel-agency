@@ -4,13 +4,13 @@ import { HiMenuAlt3 } from "react-icons/hi";
 const navStyles = [
   "fixed text-gray-300 left-0 top-0 w-full h-screen bg-black/90 px-4 py-7 flex-col z-10 ease-in duration-300",
   "absolute top-0 h-screen left-[-100%] ease-in duration-300 z-10",
-];
+] as const;
 
 function Navbar(): JSX.Element {
   const [nav, setNav] = useState(false);
 
   // set opposite state
-  const handleNav = () => {
+  function handleNav(): void {
     setNav(!nav);
 
     // enable/disable scrolling based on if nav is present
@@ -19,7 +19,7 @@ function Navbar(): JSX.Element {
     } else {
       document.body.style.overflow = "scroll";
     }
-  };
+  }
 
   return (
     <div className="absolute w-full flex justify-between p-4 items-center">
