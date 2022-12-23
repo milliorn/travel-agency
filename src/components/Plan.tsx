@@ -4,26 +4,31 @@ function Plan(): JSX.Element {
       {/* left side */}
       <div className="grid grid-cols-2 grid-rows-6 h-[80vh]">
         <img
+          loading="lazy"
           className="object-cover w-full h-full p-2 row-span-3"
           src="https://source.unsplash.com/random/2560x1440/?Hawaii"
           alt="/"
         />
         <img
+          loading="lazy"
           className="object-cover w-full h-full p-2 row-span-2"
           src="https://source.unsplash.com/random/2560x1440/?Paradise"
           alt="/"
         />
         <img
+          loading="lazy"
           className="object-cover w-full h-full p-2 row-span-2"
           src="https://source.unsplash.com/random/2560x1440/?Maldives"
           alt="/"
         />
         <img
+          loading="lazy"
           className="object-cover w-full h-full p-2 row-span-3"
           src="https://source.unsplash.com/random/2560x1440/?island"
           alt="/"
         />
         <img
+          loading="lazy"
           className="object-cover w-full h-full p-2 row-span-2"
           src="https://source.unsplash.com/random/2560x1440/?resort"
           alt="/"
