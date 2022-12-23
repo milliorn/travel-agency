@@ -1,13 +1,10 @@
-import React from "react";
-
-const Hero = () => {
+function Hero(): JSX.Element {
   return (
     <div className="w-full h-screen">
       <img
         className="top-0 left-0 w-full h-screen object-cover"
         src="https://source.unsplash.com/random/2560x1440/?beach"
-        alt="beach"
-      />
+        alt="beach" />
       {/* overlay */}
       <div className="bg-black/30 absolute top-0 left-0 w-full h-screen" />
       <div className="absolute top-0 w-full h-full flex flex-col justify-center text-white">
@@ -27,6 +24,6 @@ const Hero = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Hero;
