@@ -1,11 +1,11 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
-export default function App() {
+export default function App(): JSX.Element {
   return (
     <>
-      <Hero />
       <Navbar />
+      <Hero />
     </>
   );
 }

@@ -13,3 +13,7 @@
 ## Generate Random Images From Unsplash Without Using The API
 
 <https://awik.io/generate-random-images-unsplash-without-using-api/>
+
+## react-icons
+
+<https://www.npmjs.com/package/react-icons>
