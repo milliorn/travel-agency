@@ -13,7 +13,7 @@ function Hero(): JSX.Element {
         <div className="md:left[10%] max-w-[1100px] m-auto absolute p-4">
           <p>Exclusive</p>
           <h1 className="font-bold text-5xl md:text-7xl drop-shadow-2xl">
-            Private Resorts &amp; Getaways
+            Private Resorts &amp; Paradises
           </h1>
           <p className="max-w-[600px] drop-shadow-2xl py-2 text-xl">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
