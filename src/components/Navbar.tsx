@@ -25,11 +25,9 @@ function Navbar(): JSX.Element {
   return (
     <div className="absolute w-full flex justify-between p-4 items-center">
       <h1 className="text-white font-bold text-2xl z-20">Excursions</h1>
-      <HiMenuAlt3
-        className="z-20 text-white cursor-pointer"
-        onClick={handleNav}
-        size={25}
-      />
+      <div className="z-20 text-white cursor-pointer">
+        <HiMenuAlt3 onClick={handleNav} size={25} />
+      </div>
       <div className={nav ? navStyles[0] : navStyles[1]}>
         <ul className="flex flex-col fixed w-full h-full items-center justify-center">
           <li className="font-bold text-3xl p-4">Home</li>
