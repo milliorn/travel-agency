@@ -41,7 +41,7 @@ export default function Carousel(): JSX.Element {
       <div
         className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
         style={{ backgroundImage: `url(${slides[index].url})` }}
-      ></div>
+       />
       {/* Left Arrow */}
       <div className="absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 group-hover:bg-black/20 text-white cursor-pointer">
         <BsChevronCompactLeft onClick={prevSlide} size={30} />
