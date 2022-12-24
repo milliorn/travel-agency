@@ -2,27 +2,22 @@ import { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
 
+const slides = [
+  {
+    url: "https://source.unsplash.com/random/2560x1440/?dinner+lobster",
+  },
+  {
+    url: "https://source.unsplash.com/random/2560x1440/?sushi",
+  },
+  {
+    url: "https://source.unsplash.com/random/2560x1440/?pasta",
+  },
+  {
+    url: "https://source.unsplash.com/random/2560x1440/?salmon+dinner",
+  },
+] as const;
 
 export default function Carousel(): JSX.Element {
-  const slides = [
-    {
-      url: "https://source.unsplash.com/random/2560x1440/?dinner+lobster",
-      title: "Lobster",
-    },
-    {
-      url: "https://source.unsplash.com/random/2560x1440/?sushi",
-      title: "Sushi",
-    },
-    {
-      url: "https://source.unsplash.com/random/2560x1440/?pasta",
-      title: "Pasta",
-    },
-    {
-      url: "https://source.unsplash.com/random/2560x1440/?salmon+dinner",
-      title: "Salmon",
-    },
-  ] as const;
-
   const [index, setindex] = useState(0);
 
   function prevSlide(): void {
