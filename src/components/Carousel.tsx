@@ -65,6 +65,7 @@ export default function Carousel(): JSX.Element {
             className="text-2xl cursor-pointer"
             key={slide.title}
             onClick={() => goToSlide(slideIndex)}
+            aria-hidden="true"
           >
             <RxDotFilled />
           </div>
