@@ -66,6 +66,7 @@ export default function Carousel(): JSX.Element {
             key={slide.title}
             onClick={() => goToSlide(slideIndex)}
             aria-hidden="true"
+            role="button"
           >
             <RxDotFilled />
           </div>
