@@ -1,3 +1,4 @@
+// Offers component
 function Offers(): JSX.Element {
   return (
     <div className="max-w-4xl m-auto px-4 sm:py-12 py-8 sm:flex flex-wrap justify-between">

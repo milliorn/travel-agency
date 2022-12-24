@@ -6,6 +6,7 @@ import Offers from "./components/Offers";
 import Plan from "./components/Plan";
 import Rooms from "./components/Rooms";
 
+// main app for landing page
 export default function App(): JSX.Element {
   return (
     <>
