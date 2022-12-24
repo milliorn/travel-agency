@@ -5,15 +5,19 @@ import { useState } from "react";
 const slides = [
   {
     url: "https://source.unsplash.com/random/2560x1440/?lobster",
+    title: "lobster",
   },
   {
     url: "https://source.unsplash.com/random/2560x1440/?sushi",
+    title: "sushi",
   },
   {
     url: "https://source.unsplash.com/random/2560x1440/?pasta",
+    title: "pasta",
   },
   {
     url: "https://source.unsplash.com/random/2560x1440/?halibut+dinner",
+    title: "halibut",
   },
 ] as const;
 
@@ -59,7 +63,7 @@ export default function Carousel(): JSX.Element {
         {slides.map((slide, slideIndex) => (
           <div
             className="text-2xl cursor-pointer"
-            key={slideIndex}
+            key={slide.title}
             onClick={() => goToSlide(slideIndex)}
           >
             <RxDotFilled />
