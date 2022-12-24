@@ -1,6 +1,6 @@
 function Rooms(): JSX.Element {
   return (
-    <div className="max-w-[1400px] h-[500px] bg-blue-100 mx-auto my-20 pt-16 lg:mb-[20%] md:mb-[35%] px-4 grid lg:grid-cols-3 gap-4">
+    <div className="max-w-7xl h-[512px] bg-blue-100 mx-auto my-20 pt-16 lg:mb-[20%] md:mb-[35%] px-4 grid lg:grid-cols-3 gap-4">
       <div className="lg:top-20 relative lg:col-span-1 col-span-2">
         <h2 className="text-2xl font-bold">Fine Interior Rooms</h2>
         <p className="pt-4">

@@ -3,7 +3,7 @@ import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
 function Footer(): JSX.Element {
   return (
     <div className="w-full mt-24 bg-blue-900 text-blue-50 py-2 px-2">
-      <div className="max-w-[1400px] mx-auto grid grid-cols-2 sm:grid-cols-6 border-b-2 border-blue-600 py-8 px-4">
+      <div className="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-6 border-b-2 border-blue-600 py-8 px-4">
         <div>
           <h2 className="font-bold uppercare pt-2">Solutions</h2>
           <ul>
@@ -58,11 +58,11 @@ function Footer(): JSX.Element {
           </form>
         </div>
       </div>
-      <div className="flex flex-col max-w-[1400px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-blue-50">
+      <div className="flex flex-col max-w-7xl px-2 py-4 mx-auto justify-between sm:flex-row text-center text-blue-50">
         <p className="p-4">
           &copy;{new Date().getFullYear()} Excursions All Rights Reserved
         </p>
-        <div className="flex justify-between sm:w-[300px] pt-4 text-2xl">
+        <div className="flex justify-evenly  sm:w-96	pt-4 text-2xl">
           <FaGithub />
           <FaLinkedin />
           <FaTwitter />
