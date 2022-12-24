@@ -22,3 +22,7 @@
 ## react-icons
 
 <https://www.npmjs.com/package/react-icons>
+
+## How to deploy React App to GitHub Pages
+
+<https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f>
