@@ -1,5 +1,3 @@
-import React from "react";
-
 function Hero(): JSX.Element {
   return (
     <div className="w-full h-screen">

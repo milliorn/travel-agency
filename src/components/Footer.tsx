@@ -2,10 +2,10 @@ import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
 
 function Footer(): JSX.Element {
   return (
-    <div className="w-full mt-24 bg-gray-900 text-gray-300 py-2 px-2">
-      <div className="max-w-[1400px] mx-auto grid grid-cols-2 sm:grid-cols-6 border-b-2 border-gray-600 py-8 px-4">
+    <div className="w-full mt-24 bg-blue-900 text-blue-50 py-2 px-2">
+      <div className="max-w-[1400px] mx-auto grid grid-cols-2 sm:grid-cols-6 border-b-2 border-blue-600 py-8 px-4">
         <div>
-          <h6 className="font-bold uppercare pt-2">Solutions</h6>
+          <h2 className="font-bold uppercare pt-2">Solutions</h2>
           <ul>
             <li className="py-1">Booking</li>
             <li className="py-1">Cruises</li>
@@ -15,7 +15,7 @@ function Footer(): JSX.Element {
           </ul>
         </div>
         <div>
-          <h6 className="font-bold uppercare pt-2">Support</h6>
+          <h2 className="font-bold uppercare pt-2">Support</h2>
           <ul>
             <li className="py-1">Documentation</li>
             <li className="py-1">Pricing</li>
@@ -24,7 +24,7 @@ function Footer(): JSX.Element {
           </ul>
         </div>
         <div>
-          <h6 className="font-bold uppercare pt-2">Company</h6>
+          <h2 className="font-bold uppercare pt-2">Company</h2>
           <ul>
             <li className="py-1">About</li>
             <li className="py-1">Blog</li>
@@ -34,7 +34,7 @@ function Footer(): JSX.Element {
           </ul>
         </div>
         <div>
-          <h6 className="font-bold uppercare pt-2">Legal</h6>
+          <h2 className="font-bold uppercare pt-2">Legal</h2>
           <ul>
             <li className="py-1">Claims</li>
             <li className="py-1">Conditions</li>
@@ -58,9 +58,9 @@ function Footer(): JSX.Element {
           </form>
         </div>
       </div>
-      <div className="flex flex-col max-w-[1400px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-gray-500">
+      <div className="flex flex-col max-w-[1400px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-blue-50">
         <p className="p-4">
-          &copy;{new Date().getFullYear()} Your Name All Rights Reserved
+          &copy;{new Date().getFullYear()} Excursions All Rights Reserved
         </p>
         <div className="flex justify-between sm:w-[300px] pt-4 text-2xl">
           <FaGithub />
