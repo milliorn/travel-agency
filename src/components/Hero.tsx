@@ -21,7 +21,7 @@ function Hero(): JSX.Element {
             facere incidunt inventore quas sint dolore hic laudantium quis
             maxime quam.
           </p>
-          <button className="bg-white text-black">RSVP Now</button>
+          <button className="bg-white text-black m-1">RSVP Now</button>
         </div>
       </div>
     </div>
