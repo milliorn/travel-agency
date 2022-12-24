@@ -21,6 +21,7 @@ export default function Footer(): JSX.Element {
   );
 }
 
+// generate links in footer list
 function FooterListGenerator(props: { array: readonly string[] }): JSX.Element {
   const { array } = props;
   return (
@@ -40,15 +41,16 @@ function FooterListGenerator(props: { array: readonly string[] }): JSX.Element {
 function TopFooter(): JSX.Element {
   return (
     <div className="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-6 border-b-2 border-blue-600 py-8 px-4">
-      <GenerateFootHeading text={"Solutions"} element={solutions} />
-      <GenerateFootHeading text={"Support"} element={support} />
       <GenerateFootHeading text={"Company"} element={company} />
       <GenerateFootHeading text={"Legal"} element={legal} />
+      <GenerateFootHeading text={"Solutions"} element={solutions} />
+      <GenerateFootHeading text={"Support"} element={support} />
       <Newsletter />
     </div>
   );
 }
 
+// generate footer headings for list
 function GenerateFootHeading(props: {
   text: string;
   element: readonly string[];
