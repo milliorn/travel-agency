@@ -55,7 +55,7 @@ function Footer(): JSX.Element {
               type="email"
               placeholder="Enter email"
             />
-            <button className="p-2 mb-4 rounded-md">Subscribe</button>
+            <button type="button" className="p-2 mb-4 rounded-md">Subscribe</button>
           </form>
         </div>
       </div>

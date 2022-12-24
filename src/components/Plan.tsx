@@ -53,10 +53,10 @@ function Plan(): JSX.Element {
           fuga adipisci.
         </p>
         <div>
-          <button className="border-black sm:mr-4 m-2 hover:shadow-xl">
+          <button type="button" className="border-black sm:mr-4 m-2 hover:shadow-xl">
             Learn More
           </button>
-          <button className="bg-black text-white border-black hover:shadow-xl">
+          <button type="button" className="bg-black text-white border-black hover:shadow-xl">
             Reserve Your Excursion
           </button>
         </div>
