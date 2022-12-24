@@ -1,6 +1,6 @@
-import { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
+import { useState } from "react";
 
 const slides = [
   {
@@ -17,21 +17,25 @@ const slides = [
   },
 ] as const;
 
+// Image gallery on bottom of landing page
 export default function Carousel(): JSX.Element {
   const [index, setindex] = useState(0);
 
+  // click on arrow to jump to previous image in image gallery
   function prevSlide(): void {
     const isFirstSlide = index === 0;
     const newIndex = isFirstSlide ? slides.length - 1 : index - 1;
     setindex(newIndex);
   }
 
+  // click on arrow to jump to next image in image gallery
   function nextSlide(): void {
     const isLastSlide = index === slides.length - 1;
     const newIndex = isLastSlide ? 0 : index + 1;
     setindex(newIndex);
   }
 
+  // click on buttons to jump to image in image gallery
   function goToSlide(slideIndex: number): void {
     setindex(slideIndex);
   }
@@ -41,7 +45,7 @@ export default function Carousel(): JSX.Element {
       <div
         className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
         style={{ backgroundImage: `url(${slides[index].url})` }}
-       />
+      />
       {/* Left Arrow */}
       <div className="absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 group-hover:bg-black/20 text-white cursor-pointer">
         <BsChevronCompactLeft onClick={prevSlide} size={30} />

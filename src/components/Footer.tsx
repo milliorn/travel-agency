@@ -1,5 +1,6 @@
 import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
 
+// Footer component
 function Footer(): JSX.Element {
   return (
     <div className="w-full mt-24 bg-blue-900 text-blue-50 py-2 px-2">
