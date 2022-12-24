@@ -1,9 +1,10 @@
+import Carousel from "./components/Carousel";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Offers from "./components/Offers";
 import Plan from "./components/Plan";
 import Rooms from "./components/Rooms";
-import Carousel from "./components/Carousel";
 
 export default function App(): JSX.Element {
   return (
@@ -14,6 +15,7 @@ export default function App(): JSX.Element {
       <Plan />
       <Rooms />
       <Carousel />
+      <Footer />
     </>
   );
 }
