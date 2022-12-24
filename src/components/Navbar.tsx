@@ -6,6 +6,14 @@ const navStyles = [
   "absolute top-0 h-screen left-[-100%] ease-in duration-300 z-10",
 ] as const;
 
+const navList = [
+  "Home",
+  "Amenities",
+  "Destinations",
+  "Reservations",
+  "Rooms",
+] as const;
+
 // navbar that does an overlay over the page when clicked
 function Navbar(): JSX.Element {
   const [nav, setNav] = useState(false);
@@ -30,11 +38,11 @@ function Navbar(): JSX.Element {
       </div>
       <div className={nav ? navStyles[0] : navStyles[1]}>
         <ul className="flex flex-col fixed w-full h-full items-center justify-center">
-          <li className="font-bold text-3xl p-4">Home</li>
-          <li className="font-bold text-3xl p-4">Amenities</li>
-          <li className="font-bold text-3xl p-4">Destinations</li>
-          <li className="font-bold text-3xl p-4">Reservations</li>
-          <li className="font-bold text-3xl p-4">Rooms</li>
+          {navList.map((e) => (
+            <li className="font-bold text-3xl p-4" key={e}>
+              {e}
+            </li>
+          ))}
         </ul>
       </div>
     </div>
